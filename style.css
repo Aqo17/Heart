@@ -1,0 +1,24 @@
+body {
+      margin: 0;
+      background: #111;
+      overflow: hidden;
+      font-family: sans-serif;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .text {
+      position: absolute;
+      font-size: 2em;
+      font-weight: bold;
+      z-index: 10;
+    }
